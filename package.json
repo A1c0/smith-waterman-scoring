@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "chai-as-promised": "^7.1.1",
