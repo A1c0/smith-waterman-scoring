@@ -1,6 +1,6 @@
 {
   "name": "smith-walterman-score",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This algorithm allows us to compute the alignment of two strings.",
   "main": "app/smith-waterman-score.js",
   "repository": {
