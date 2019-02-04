@@ -9,11 +9,18 @@
   },
   "author": "Alexandre CONTASSOT* <alexandrecontassot@hotmail.fr>",
   "license": "MIT",
-  "keywords": ["cool", "useful", "stuff"],
+  "keywords": [
+    "smith-waterman",
+    "compare-objects",
+    "alignment-algorithm"
+  ],
   "homepage": "https://github.com/A1c0/smith-walterman-score",
   "bugs": "https://github.com/A1c0/smith-walterman-score/issues",
-  "files": ["index.js", "lib/*.js", "app/*.js"],
-
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "app/*.js"
+  ],
   "scripts": {
     "code-style": "xo",
     "start": "node index.js",
