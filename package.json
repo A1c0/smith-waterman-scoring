@@ -1,9 +1,26 @@
 {
   "name": "smith-walterman-score",
   "version": "1.0.0",
+  "description": "This algorithm allows us to compute the alignment of two strings.",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/A1c0/smith-walterman-score",
+    "type": "git"
+  },
   "author": "Alexandre CONTASSOT* <alexandrecontassot@hotmail.fr>",
   "license": "MIT",
+  "keywords": [
+    "smith-waterman",
+    "compare-objects",
+    "alignment-algorithm"
+  ],
+  "homepage": "https://github.com/A1c0/smith-walterman-score",
+  "bugs": "https://github.com/A1c0/smith-walterman-score/issues",
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "app/*.js"
+  ],
   "scripts": {
     "code-style": "xo",
     "start": "node index.js",
