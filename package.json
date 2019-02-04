@@ -1,8 +1,8 @@
 {
   "name": "smith-walterman-score",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This algorithm allows us to compute the alignment of two strings.",
-  "main": "index.js",
+  "main": "app/smith-waterman-score.js",
   "repository": {
     "url": "https://github.com/A1c0/smith-walterman-score",
     "type": "git"
@@ -17,7 +17,6 @@
   "homepage": "https://github.com/A1c0/smith-walterman-score",
   "bugs": "https://github.com/A1c0/smith-walterman-score/issues",
   "files": [
-    "index.js",
     "lib/*.js",
     "app/*.js"
   ],
@@ -31,9 +30,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "pre-commit": "^1.2.2",
     "chai-as-promised": "^7.1.1",
     "mocha": "^5.2.0",
+    "pre-commit": "^1.2.2",
     "xo": "^0.24.0"
   },
   "pre-commit": [
