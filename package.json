@@ -27,11 +27,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "chai": "^4.2.0",
-    "pre-commit": "^1.2.2",
     "ramda": "^0.26.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "pre-commit": "^1.2.2",
     "chai-as-promised": "^7.1.1",
     "mocha": "^5.2.0",
     "xo": "^0.24.0"

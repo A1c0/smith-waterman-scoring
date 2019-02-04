@@ -23,12 +23,24 @@ $ npm install smith-walterman-score
 ```js
 const smtihWaltermanScore = require('smith-walterman-score');
 
-const array1 = 'Hello'.split('');
-const array2 = 'Helo'.split('');
 const options = {gap: -1, mismatch: -2, match: 2};
 
-const result = smtihWaltermanScore(array1, array2, options);
-console.log(result);
-//=> result
+// example to compare two words
+const test1A = 'Hello'.split('');
+const test1B = 'Helo'.split('');
+const result1 = smtihWaltermanScore(test1A, test1B, options);
+console.log(result1);
+/*=> { finalQ: [ 'H', 'e', 'l', 'l', 'o' ],
+       finalP: [ 'H', 'e', {}, 'l', 'o' ], // {} is a gap
+       score: 7 }*/
+
+// example to compare two sentences
+const test2A = 'I\'m a little boy'.split(' ');
+const test2B = 'I\'m a big boy'.split(' ');
+const result2 = smtihWaltermanScore(test2A, test2B, options);
+console.log(result2);
+/*=> { finalQ: [ "I'm", 'a' ], 
+       finalP: [ "I'm", 'a' ], 
+       score: 4 }*/
 ```
 
